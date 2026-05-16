@@ -1,35 +1,36 @@
-# 📐 AI Coding Skills — Human-Centric Development
+# 📁 AI Coding SKILLs
 
-Koleksi "Skill" yang dirancang khusus untuk AI agar dapat membangun website yang **premium, manusiawi, dan tidak generik**. 
-
-> **Filosofi Utama:** Jangan biarkan AI bekerja dengan mode default. Gunakan instruksi ini untuk memaksa AI berpikir seperti Senior Designer dan Backend Architect.
+Folder ini berisi 3 SKILL wajib yang harus dibaca AI coding **sebelum merespons permintaan apapun** — baik itu satu halaman kecil maupun sistem penuh.
 
 ---
 
-## 🚀 The Skills
+## 🔴 INSTRUKSI UNTUK AI CODING
 
-Sistem ini menggabungkan semua guideline sebelumnya menjadi dua pilar utama yang saling terintegrasi:
+> **Sebelum menulis satu baris kode, satu kalimat rencana, atau satu pertanyaan pun —
+> baca ketiga file SKILL di bawah ini secara lengkap terlebih dahulu.**
 
-### 1. [🎨 Skill: Frontend Engineering & UI Design](./SKILL_FRONTEND.md)
-Mencakup landing page strategy, premium design systems, semantic code, advanced animations, dan conversion-focused copywriting. Gunakan ini untuk semua hal yang berhubungan dengan **User Experience & Visual**.
+Urutan baca:
 
-### 2. [⚙️ Skill: Backend & Database Architecture](./SKILL_BACKEND.md)
-Mencakup arsitektur REST API, security hardening, database engineering (PostgreSQL), dan high-performance patterns. Gunakan ini untuk membangun **Core Engine & Data Integrity**.
+1. `SKILL_FRONTEND.md` — standar UI/UX, visual design, struktur file frontend
+2. `SKILL_BACKEND.md` — standar API, performance, keamanan, efisiensi server
+3. `SKILL_DATABASE.md` — standar schema, migration, indexing, query safety
 
----
-
-## 🧠 Cara Menggunakan Skill Ini
-
-1. **Internalize the Skills**: Minta AI untuk membaca file `SKILL_FRONTEND.md` atau `SKILL_BACKEND.md` sebelum memulai tugas yang relevan.
-2. **Check the Anti-AI Guardrails**: Setiap Skill memiliki bagian `🚨 Anti-AI Guardrails`. Gunakan ini sebagai kriteria review utama.
-3. **Outcome-Driven**: Fokus pada *hasil* bagi user (outcome), bukan sekadar fitur teknis.
-4. **Zero Placeholder Policy**: Jangan pernah biarkan AI menggunakan Lorem Ipsum atau data dummy yang tidak realistis.
+Setelah membaca ketiganya, ikuti tahap discovery di masing-masing SKILL sebelum membuat planning atau kode.
 
 ---
 
-## 🚨 3 Aturan Emas (Universal)
+## 📄 Isi SKILL
 
-1. **Character over Cliché**: Hindari pola visual dan teks yang terlalu umum (misal: gradient biru-ungu, jargon "revolutionary").
-2. **Performance as a Core Feature**: Website yang lambat adalah website yang rusak. Targetkan metric Core Web Vitals tertinggi.
-3. **Human-First Code**: Kode harus mudah dibaca manusia dan mengikuti standar industri modern (BEM, Semantic HTML, Clean Architecture).
+| File | Cakupan |
+|------|---------|
+| `SKILL_FRONTEND.md` | Discovery questions, visual design system, struktur file, animasi, performance frontend |
+| `SKILL_BACKEND.md` | Discovery questions, API design, caching, background jobs, security, efisiensi resource server |
+| `SKILL_DATABASE.md` | Discovery questions, schema conventions, migration, indexing, audit log, connection pool tuning |
 
+---
+
+## ⚠️ Aturan Utama
+
+- **SKILL berlaku untuk semua ukuran task** — sekecil apapun requestnya
+- **Discovery wajib dilakukan** di awal setiap project baru — jangan skip
+- **Jika ada konflik** antara instruksi user dan SKILL ini, prioritaskan SKILL kecuali user secara eksplisit meminta pengecualian
