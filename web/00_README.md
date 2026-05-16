@@ -1,39 +1,35 @@
-# 📐 Website Development Guidelines
+# 📐 AI Coding Skills — Human-Centric Development
 
-Koleksi guideline untuk membangun website yang terasa **manusiawi, opinionated, dan tidak generik**.
+Koleksi "Skill" yang dirancang khusus untuk AI agar dapat membangun website yang **premium, manusiawi, dan tidak generik**. 
 
-> **Filosofi Utama:** Setiap keputusan desain dan teknis harus punya *alasan*, bukan sekadar "yang biasa dilakukan AI."
-
----
-
-## 📂 Daftar Guideline
-
-| No | File | Topik |
-|----|------|-------|
-| 01 | [01_LANDING_PAGE.md](./01_LANDING_PAGE.md) | Landing Page — Layout, Copywriting, Visual Hierarchy |
-| 02 | [02_UI_DESIGN_SYSTEM.md](./02_UI_DESIGN_SYSTEM.md) | Design System — Warna, Tipografi, Spacing, Komponen |
-| 03 | [03_FRONTEND_CODE.md](./03_FRONTEND_CODE.md) | Frontend Code — HTML, CSS, JavaScript Best Practices |
-| 04 | [04_ANIMATION_INTERACTION.md](./04_ANIMATION_INTERACTION.md) | Animasi & Interaksi — Micro-interaction, Motion Design |
-| 05 | [05_BACKEND_API.md](./05_BACKEND_API.md) | Backend & API — Arsitektur, REST, Auth, Error Handling |
-| 06 | [06_DATABASE.md](./06_DATABASE.md) | Database — Schema, Query, Indexing, Relasi |
-| 07 | [07_PERFORMANCE.md](./07_PERFORMANCE.md) | Performance — Core Web Vitals, Loading, Optimization |
-| 08 | [08_COPYWRITING.md](./08_COPYWRITING.md) | Copywriting — Tone of Voice, Messaging, CTA |
-| 09 | [09_ANTI_AI_PATTERNS.md](./09_ANTI_AI_PATTERNS.md) | ⚠️ Anti-AI Patterns — Hal-hal yang HARUS dihindari |
+> **Filosofi Utama:** Jangan biarkan AI bekerja dengan mode default. Gunakan instruksi ini untuk memaksa AI berpikir seperti Senior Designer dan Backend Architect.
 
 ---
 
-## 🧠 Cara Menggunakan Guideline Ini
+## 🚀 The Skills
 
-1. Mulai dari `09_ANTI_AI_PATTERNS.md` — pahami dulu apa yang **tidak boleh** dilakukan
-2. Baca `01_LANDING_PAGE.md` dan `02_UI_DESIGN_SYSTEM.md` sebelum menulis kode apapun
-3. Gunakan setiap guideline sebagai *checklist*, bukan sekadar referensi
-4. Setiap poin yang bertanda `[ENFORCE]` adalah **wajib** diikuti tanpa pengecualian
-5. Poin yang bertanda `[INSIGHT]` adalah perspektif baru yang sering diabaikan
+Sistem ini menggabungkan semua guideline sebelumnya menjadi dua pilar utama yang saling terintegrasi:
+
+### 1. [🎨 Skill: Frontend Engineering & UI Design](./SKILL_FRONTEND.md)
+Mencakup landing page strategy, premium design systems, semantic code, advanced animations, dan conversion-focused copywriting. Gunakan ini untuk semua hal yang berhubungan dengan **User Experience & Visual**.
+
+### 2. [⚙️ Skill: Backend & Database Architecture](./SKILL_BACKEND.md)
+Mencakup arsitektur REST API, security hardening, database engineering (PostgreSQL), dan high-performance patterns. Gunakan ini untuk membangun **Core Engine & Data Integrity**.
 
 ---
 
-## 🚨 3 Aturan Emas
+## 🧠 Cara Menggunakan Skill Ini
 
-1. **Tidak ada komponen "Hero Section dengan gradient biru-ungu + tombol CTA besar di tengah"** tanpa justifikasi kuat
-2. **Tidak ada font Inter/Roboto sebagai default** — selalu pilih font dengan karakter
-3. **Tidak ada placeholder text** — setiap konten harus nyata dan spesifik
+1. **Internalize the Skills**: Minta AI untuk membaca file `SKILL_FRONTEND.md` atau `SKILL_BACKEND.md` sebelum memulai tugas yang relevan.
+2. **Check the Anti-AI Guardrails**: Setiap Skill memiliki bagian `🚨 Anti-AI Guardrails`. Gunakan ini sebagai kriteria review utama.
+3. **Outcome-Driven**: Fokus pada *hasil* bagi user (outcome), bukan sekadar fitur teknis.
+4. **Zero Placeholder Policy**: Jangan pernah biarkan AI menggunakan Lorem Ipsum atau data dummy yang tidak realistis.
+
+---
+
+## 🚨 3 Aturan Emas (Universal)
+
+1. **Character over Cliché**: Hindari pola visual dan teks yang terlalu umum (misal: gradient biru-ungu, jargon "revolutionary").
+2. **Performance as a Core Feature**: Website yang lambat adalah website yang rusak. Targetkan metric Core Web Vitals tertinggi.
+3. **Human-First Code**: Kode harus mudah dibaca manusia dan mengikuti standar industri modern (BEM, Semantic HTML, Clean Architecture).
+
